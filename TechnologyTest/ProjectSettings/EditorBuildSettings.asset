@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: ea5bd386763abad438e7c081004498f2
   - enabled: 1
-    path: Assets/Scenes/ValleyBall.unity
+    path: Assets/Scenes/Exercise.unity
     guid: ab14865b4f482b249a9332353db785f6
   m_configObjects: {}
