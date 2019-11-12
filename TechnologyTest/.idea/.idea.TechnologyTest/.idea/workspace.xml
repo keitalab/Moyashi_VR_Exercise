@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d02fc4-12fc-447e-b07e-6bc0000c255d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Material/ballColor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/ballColor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Exercise.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Exercise.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/C#/RKeyToRecenterPose.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="165">
               <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <marker date="1573548135607" expanded="false" signature="6:78" ph="..." />
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="112" />
+            <state relative-caret-position="225">
+              <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -91,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="150">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -135,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-9" />
     <option name="y" value="253" />
     <option name="width" value="1207" />
@@ -205,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1573543812758</updated>
       <workItem from="1573543819263" duration="3944000" />
-      <workItem from="1573558526975" duration="1080000" />
+      <workItem from="1573558526975" duration="1799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5024000" />
+    <option name="totallyTimeSpent" value="5743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/C#/RKeyToRecenterPose.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="165">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <marker date="1573548135607" expanded="false" signature="6:78" ph="..." />
@@ -787,15 +786,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="150">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="112" />
+        <state relative-caret-position="225">
+          <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="75" />
         </state>
       </provider>
     </entry>
