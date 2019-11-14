@@ -1,30 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class VibrationController : MonoBehaviour
 {
-    private const string leftHand = "LeftHand";
-    private const string rightHand = "RightHand";
-
-    private void OnCollisionEnter(Collision collision)
+    [SerializeField] private Rigidbody rigidbody;
+    [SerializeField] private bool leftRight;
+    private static readonly string sphereTag = "CheckDistanceSphere";
+    private void OnTriggerEnter(Collider collider)
     {
-        if(collision.gameObject.tag == leftHand)
+        if(collider.gameObject.CompareTag(sphereTag))
         {
-            OVRInput.SetControllerVibration(0.5f, 0.5f, OVRInput.Controller.LTouch);
-            StartCoroutine(VibrationStop(true));
-        }
-        else if(collision.gameObject.tag == rightHand)
-        {
-            OVRInput.SetControllerVibration(0.5f, 0.5f, OVRInput.Controller.RTouch);
-            StartCoroutine(VibrationStop(false));
+            if (leftRight)
+            {
+                OVRInput.SetControllerVibration(0.5f, 0.5f, OVRInput.Controller.LTouch);
+            }
+            else
+            {
+                OVRInput.SetControllerVibration(0.5f, 0.5f, OVRInput.Controller.RTouch);
+            }
+            StartCoroutine(VibrationStop(0.2f));
         }
     }
-
-    private IEnumerator VibrationStop(bool isLeft)
+    private IEnumerator VibrationStop(float time)
     {
-        yield return new WaitForSeconds(0.2f);
-        if (isLeft)
+        yield return new WaitForSeconds(time);
+        if (leftRight)
         {
             OVRInput.SetControllerVibration(0f, 0f, OVRInput.Controller.LTouch);
         }

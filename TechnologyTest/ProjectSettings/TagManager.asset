@@ -7,6 +7,9 @@ TagManager:
   - Floor
   - RightHand
   - LeftHand
+  - FxTemporaire
+  - projectile
+  - CheckDistanceSphere
   layers:
   - Default
   - TransparentFX

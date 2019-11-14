@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d02fc4-12fc-447e-b07e-6bc0000c255d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechnologyTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechnologyTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechnologyTest/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechnologyTest/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TechnologyTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechnologyTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/C#/VibrationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C#/VibrationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button9slice.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button9slice.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/dialog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/dialog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/header.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/header.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/panel_background.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/panel_background.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_on.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_on.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_on_off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_on_off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_over.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_over.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/separator.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/separator.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_bar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_bar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_slider.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_slider.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/translucent_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/translucent_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/handle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/handle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/windowgui.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Textures/windowgui.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/CheckDistanceSphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/CheckDistanceSphere.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Exercise.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Exercise.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Hints/Textures/HintBackground.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Hints/Textures/HintBackground.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/RPMCounterBorder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/RPMCounterBorder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/RPMCounterFill.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/RPMCounterFill.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/blob.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/blob.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/steering.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/steering.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/Roundsquare.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/Roundsquare.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Light_Silhouette.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Light_Silhouette.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,31 +51,31 @@
             <state relative-caret-position="90">
               <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
-                <marker date="1573543831239" expanded="true" signature="0:59" ph="/* AutoBlink.cs ... */" />
-                <marker date="1573543831239" expanded="true" signature="66:104" ph="..." />
-                <marker date="1573543831239" expanded="true" signature="157:2868" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="199:2866" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="847:896" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="957:1137" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="965:1133" ph="/* ref_SMR_EYE_DEF = GameObject.Find(&quot;EYE_DEF&quot;).GetComponent&lt;SkinnedMeshRenderer&gt;(); ... */" />
-                <marker date="1573543831239" expanded="true" signature="1189:1274" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1309:1371" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1426:1756" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1453:1514" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1536:1752" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1604:1661" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1705:1747" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1778:2106" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1800:2102" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1819:2097" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="1845:2062" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="2130:2251" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="2279:2408" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="2431:2550" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="2598:2863" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="2633:2859" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="2717:2783" ph="{...}" />
-                <marker date="1573543831239" expanded="true" signature="2747:2777" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="0:59" ph="/* AutoBlink.cs ... */" />
+                <marker date="1573568186224" expanded="false" signature="66:104" ph="..." />
+                <marker date="1573568186224" expanded="true" signature="157:2868" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="199:2866" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="847:896" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="957:1137" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="965:1133" ph="/* ref_SMR_EYE_DEF = GameObject.Find(&quot;EYE_DEF&quot;).GetComponent&lt;SkinnedMeshRenderer&gt;(); ... */" />
+                <marker date="1573568186224" expanded="true" signature="1189:1274" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1309:1371" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1426:1756" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1453:1514" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1536:1752" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1604:1661" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1705:1747" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1778:2106" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1800:2102" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1819:2097" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="1845:2062" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="2130:2251" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="2279:2408" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="2431:2550" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="2598:2863" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="2633:2859" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="2717:2783" ph="{...}" />
+                <marker date="1573568186224" expanded="true" signature="2747:2777" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,9 +87,9 @@
             <state>
               <caret column="18" selection-start-column="18" selection-end-column="18" />
               <folding>
-                <marker date="1573548072527" expanded="true" signature="66:257" ph="{...}" />
-                <marker date="1573548072527" expanded="true" signature="122:187" ph="{...}" />
-                <marker date="1573548072527" expanded="true" signature="247:255" ph="{...}" />
+                <marker date="1573568168019" expanded="true" signature="66:257" ph="{...}" />
+                <marker date="1573568168019" expanded="true" signature="122:187" ph="{...}" />
+                <marker date="1573568168019" expanded="true" signature="247:255" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,14 +98,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/C#/RKeyToRecenterPose.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="210">
               <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <marker date="1573548135607" expanded="false" signature="6:78" ph="..." />
-                <marker date="1573548135607" expanded="true" signature="128:400" ph="{...}" />
-                <marker date="1573548135607" expanded="true" signature="184:192" ph="{...}" />
-                <marker date="1573548135607" expanded="true" signature="252:398" ph="{...}" />
-                <marker date="1573548135607" expanded="true" signature="325:392" ph="{...}" />
+                <marker date="1573568168017" expanded="false" signature="6:78" ph="..." />
+                <marker date="1573568168017" expanded="true" signature="128:400" ph="{...}" />
+                <marker date="1573568168017" expanded="true" signature="184:192" ph="{...}" />
+                <marker date="1573568168017" expanded="true" signature="252:398" ph="{...}" />
+                <marker date="1573568168017" expanded="true" signature="325:392" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,7 +115,27 @@
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="75" />
+              <caret line="15" column="75" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/C#/VibrationController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding>
+                <marker date="1573734454760" expanded="true" signature="6:78" ph="..." />
+                <marker date="1573734454760" expanded="true" signature="127:1107" ph="{...}" />
+                <marker date="1573734454760" expanded="true" signature="345:758" ph="{...}" />
+                <marker date="1573734454760" expanded="true" signature="405:752" ph="{...}" />
+                <marker date="1573734454760" expanded="true" signature="442:559" ph="{...}" />
+                <marker date="1573734454760" expanded="true" signature="576:693" ph="{...}" />
+                <marker date="1573734454760" expanded="true" signature="808:1105" ph="{...}" />
+                <marker date="1573734454760" expanded="true" signature="884:985" ph="{...}" />
+                <marker date="1573734454760" expanded="true" signature="998:1099" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,9 +163,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/C#/RKeyToRecenterPose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C#/VibrationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/C#/VRmirrorSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLint.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,6 +177,7 @@
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRLint.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Editor/AndroidManifest.OVRSubmission.xml" />
+        <option value="$PROJECT_DIR$/Assets/C#/VibrationController.cs" />
       </list>
     </option>
   </component>
@@ -146,15 +201,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,11 +260,12 @@
       <updated>1573543812758</updated>
       <workItem from="1573543819263" duration="3944000" />
       <workItem from="1573558526975" duration="1799000" />
+      <workItem from="1573734203218" duration="1263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5743000" />
+    <option name="totallyTimeSpent" value="7006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,9 +277,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="253" width="1207" height="1093" extended-state="0" />
+    <frame x="-9" y="253" width="1207" height="1093" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25370532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -729,31 +785,31 @@
         <state relative-caret-position="90">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
-            <marker date="1573543831239" expanded="true" signature="0:59" ph="/* AutoBlink.cs ... */" />
-            <marker date="1573543831239" expanded="true" signature="66:104" ph="..." />
-            <marker date="1573543831239" expanded="true" signature="157:2868" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="199:2866" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="847:896" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="957:1137" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="965:1133" ph="/* ref_SMR_EYE_DEF = GameObject.Find(&quot;EYE_DEF&quot;).GetComponent&lt;SkinnedMeshRenderer&gt;(); ... */" />
-            <marker date="1573543831239" expanded="true" signature="1189:1274" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1309:1371" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1426:1756" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1453:1514" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1536:1752" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1604:1661" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1705:1747" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1778:2106" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1800:2102" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1819:2097" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="1845:2062" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="2130:2251" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="2279:2408" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="2431:2550" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="2598:2863" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="2633:2859" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="2717:2783" ph="{...}" />
-            <marker date="1573543831239" expanded="true" signature="2747:2777" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="0:59" ph="/* AutoBlink.cs ... */" />
+            <marker date="1573568186224" expanded="false" signature="66:104" ph="..." />
+            <marker date="1573568186224" expanded="true" signature="157:2868" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="199:2866" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="847:896" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="957:1137" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="965:1133" ph="/* ref_SMR_EYE_DEF = GameObject.Find(&quot;EYE_DEF&quot;).GetComponent&lt;SkinnedMeshRenderer&gt;(); ... */" />
+            <marker date="1573568186224" expanded="true" signature="1189:1274" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1309:1371" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1426:1756" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1453:1514" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1536:1752" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1604:1661" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1705:1747" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1778:2106" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1800:2102" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1819:2097" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="1845:2062" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="2130:2251" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="2279:2408" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="2431:2550" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="2598:2863" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="2633:2859" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="2717:2783" ph="{...}" />
+            <marker date="1573568186224" expanded="true" signature="2747:2777" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -763,23 +819,23 @@
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
           <folding>
-            <marker date="1573548072527" expanded="true" signature="66:257" ph="{...}" />
-            <marker date="1573548072527" expanded="true" signature="122:187" ph="{...}" />
-            <marker date="1573548072527" expanded="true" signature="247:255" ph="{...}" />
+            <marker date="1573568168019" expanded="true" signature="66:257" ph="{...}" />
+            <marker date="1573568168019" expanded="true" signature="122:187" ph="{...}" />
+            <marker date="1573568168019" expanded="true" signature="247:255" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/C#/RKeyToRecenterPose.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="210">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <marker date="1573548135607" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573548135607" expanded="true" signature="128:400" ph="{...}" />
-            <marker date="1573548135607" expanded="true" signature="184:192" ph="{...}" />
-            <marker date="1573548135607" expanded="true" signature="252:398" ph="{...}" />
-            <marker date="1573548135607" expanded="true" signature="325:392" ph="{...}" />
+            <marker date="1573568168017" expanded="false" signature="6:78" ph="..." />
+            <marker date="1573568168017" expanded="true" signature="128:400" ph="{...}" />
+            <marker date="1573568168017" expanded="true" signature="184:192" ph="{...}" />
+            <marker date="1573568168017" expanded="true" signature="252:398" ph="{...}" />
+            <marker date="1573568168017" expanded="true" signature="325:392" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -791,10 +847,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/C#/VibrationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1573734454760" expanded="true" signature="6:78" ph="..." />
+            <marker date="1573734454760" expanded="true" signature="127:1107" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="345:758" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="405:752" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="442:559" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="576:693" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="808:1105" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="884:985" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="998:1099" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="75" />
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="75" />
         </state>
       </provider>
     </entry>
