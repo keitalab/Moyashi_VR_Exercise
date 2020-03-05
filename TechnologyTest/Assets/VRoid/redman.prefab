@@ -858,7 +858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 690ea0146224b8b4694a1925dddeb352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Meta: {fileID: 114306837072732876}
+  Meta: {fileID: 114572781269534418}
 --- !u!114 &5860809762097910596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,8 +871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3869812175467a143ab9cd865752b4a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Avatar: {fileID: 90068708067803816}
-  Description: {fileID: 114240479497548036}
+  Avatar: {fileID: 90250464563876854}
+  Description: {fileID: 114505242479164508}
 --- !u!95 &5536112243590837012
 Animator:
   serializedVersion: 3
@@ -882,7 +882,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3723224828772552110}
   m_Enabled: 1
-  m_Avatar: {fileID: 90068708067803816}
+  m_Avatar: {fileID: 90250464563876854}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -2650,7 +2650,7 @@ Transform:
   m_Father: {fileID: 9131822380578764070}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!90 &90068708067803816
+--- !u!90 &90250464563876854
 Avatar:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3891,7 +3891,7 @@ Avatar:
     4062171661: Armature/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand
     4212831178: Armature/Hips/RightUpLeg
     4230137346: Armature/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing3_end
---- !u!114 &114240479497548036
+--- !u!114 &114505242479164508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4171,7 +4171,7 @@ MonoBehaviour:
     max: {x: 0, y: 0, z: 0}
     center: {x: 0, y: 0, z: 0}
     axisLength: 0
---- !u!114 &114306837072732876
+--- !u!114 &114572781269534418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

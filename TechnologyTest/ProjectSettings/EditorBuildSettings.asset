@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Exercise.unity
     guid: ab14865b4f482b249a9332353db785f6
+  - enabled: 0
+    path: Assets/Scenes/Opening.unity
+    guid: 6d9e964b6694a2d4ebd487105b0fb535
   m_configObjects: {}
