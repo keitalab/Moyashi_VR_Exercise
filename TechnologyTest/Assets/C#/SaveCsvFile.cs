@@ -39,20 +39,20 @@ public static class SaveCsvFile
     {
         headTransform.Add(new List<float>()
         {
-            head.transform.position.x, head.transform.position.y,
-            head.transform.position.z, head.transform.localEulerAngles.x, head.transform.localEulerAngles.y,
+            head.transform.localPosition.x, head.transform.localPosition.y,
+            head.transform.localPosition.z, head.transform.localEulerAngles.x, head.transform.localEulerAngles.y,
             head.transform.localEulerAngles.z
         });
         leftHandTransform.Add(new List<float>()
         {
-            leftHand.transform.position.x, leftHand.transform.position.y,
-            leftHand.transform.position.z, leftHand.transform.localEulerAngles.x, leftHand.transform.localEulerAngles.y,
+            leftHand.transform.localPosition.x, leftHand.transform.localPosition.y,
+            leftHand.transform.localPosition.z, leftHand.transform.localEulerAngles.x, leftHand.transform.localEulerAngles.y,
             leftHand.transform.localEulerAngles.z
         });
         rightHandTransform.Add(new List<float>()
         {
-            rightHand.transform.position.x, rightHand.transform.position.y,
-            rightHand.transform.position.z, rightHand.transform.localEulerAngles.x, rightHand.transform.localEulerAngles.y,
+            rightHand.transform.localPosition.x, rightHand.transform.localPosition.y,
+            rightHand.transform.localPosition.z, rightHand.transform.localEulerAngles.x, rightHand.transform.localEulerAngles.y,
             rightHand.transform.localEulerAngles.z
         });
     }

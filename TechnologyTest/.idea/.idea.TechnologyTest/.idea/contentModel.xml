@@ -13,6 +13,7 @@
           <e p="ControllerVisible.cs" t="Include" />
           <e p="DestroyBall.cs" t="Include" />
           <e p="InstantiateBall.cs" t="Include" />
+          <e p="LoadCsvFile.cs" t="Include" />
           <e p="lowerHeadPosition.cs" t="Include" />
           <e p="MultiPathCombine.cs" t="Include" />
           <e p="MusicStart.cs" t="Include" />

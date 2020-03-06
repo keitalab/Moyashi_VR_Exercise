@@ -34,12 +34,6 @@ public class MusicStart : MonoBehaviour
 
         if (OVRInput.Get(OVRInput.Button.Two)) //B
         {
-            audioSource.Stop();
-            SaveCsvFile.Restart();
-        }
-
-        if (OVRInput.Get(OVRInput.Button.Three)) //X
-        {
             SaveCsvFile.Write();
         }
         
