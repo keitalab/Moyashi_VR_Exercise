@@ -102010,6 +102010,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 2014620064}
+  head: {fileID: 1384193806}
+  leftHand: {fileID: 1384198992}
+  rightHand: {fileID: 1384195524}
 --- !u!4 &2016867131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 3d1a722fa35da9c48a54a276f6e57492,
