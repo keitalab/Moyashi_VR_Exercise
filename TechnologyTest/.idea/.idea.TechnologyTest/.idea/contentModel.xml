@@ -12,6 +12,8 @@
         <e p="C#" t="Include">
           <e p="ControllerVisible.cs" t="Include" />
           <e p="DestroyBall.cs" t="Include" />
+          <e p="Experience.cs" t="Include" />
+          <e p="ExperienceBall.cs" t="Include" />
           <e p="InstantiateBall.cs" t="Include" />
           <e p="LoadCsvFile.cs" t="Include" />
           <e p="lowerHeadPosition.cs" t="Include" />
