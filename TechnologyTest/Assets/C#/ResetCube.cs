@@ -4,15 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class RestCube : MonoBehaviour
+public class ResetCube : MonoBehaviour
 {
     private Experience experience;
     private Material material;
+    private bool isExist;
     
     private void Start()
     {
         experience = Experience.Instance;
-        material = this.gameObject.GetComponent<Material>();
+        material = this.gameObject.GetComponent<Renderer>().material;
+        isExist = false;
     }
 
     public void OnTriggerEnter(Collider other)
@@ -22,6 +24,7 @@ public class RestCube : MonoBehaviour
         {
             if (other.gameObject.name == "hand.L_end")
             {
+                isExist = true;
                 Color color = material.color;
                 color.a = 0.5f;
                 material.color = color;
@@ -32,6 +35,7 @@ public class RestCube : MonoBehaviour
         {
             if (other.gameObject.name == "hand.R_end")
             {
+                isExist = true;
                 Color color = material.color;
                 color.a = 0.5f;
                 material.color = color;
@@ -46,6 +50,7 @@ public class RestCube : MonoBehaviour
         {
             if (other.gameObject.name == "hand.L_end")
             {
+                isExist = true;
                 Color color = material.color;
                 color.a = 1f;
                 material.color = color;
@@ -56,6 +61,7 @@ public class RestCube : MonoBehaviour
         {
             if (other.gameObject.name == "hand.R_end")
             {
+                isExist = true;
                 Color color = material.color;
                 color.a = 1f;
                 material.color = color;
@@ -63,12 +69,12 @@ public class RestCube : MonoBehaviour
         }
     }
 
-    public void OnTriggerStay(Collider other)
+    private void Update()
     {
-        if (experience.GetTaskStatus == Experience.TaskStatus.LeftPreTasking ||
-            experience.GetTaskStatus == Experience.TaskStatus.LeftRealTasking)
+        if (isExist)
         {
-            if (other.gameObject.name == "hand.L_end")
+            if (experience.GetTaskStatus == Experience.TaskStatus.LeftPreTasking ||
+                experience.GetTaskStatus == Experience.TaskStatus.LeftRealTasking)
             {
                 if (OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
                 {
@@ -76,11 +82,8 @@ public class RestCube : MonoBehaviour
                     Destroy(this.gameObject);
                 }
             }
-        }
-        else if (experience.GetTaskStatus == Experience.TaskStatus.RightPreTasking ||
-                 experience.GetTaskStatus == Experience.TaskStatus.RightRealTasking)
-        {
-            if (other.gameObject.name == "hand.R_end")
+            else if (experience.GetTaskStatus == Experience.TaskStatus.RightPreTasking ||
+                     experience.GetTaskStatus == Experience.TaskStatus.RightRealTasking)
             {
                 if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
                 {

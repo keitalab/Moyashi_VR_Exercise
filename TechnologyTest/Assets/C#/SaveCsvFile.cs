@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -27,9 +28,12 @@ public static class SaveCsvFile
 
     public static void WriteExperienceCsvData(string path, string fileName, List<float> timer)
     {
-        using (StreamWriter sw = new StreamWriter(fileName + ".csv"));
+        string filePath = MultiPathCombine.Combine(path, fileName + ".csv");
+
+        StreamWriter streamWriter = File.CreateText(filePath);
+        streamWriter.Close();
         
-        var fileInfo = new FileInfo(MultiPathCombine.Combine(path, fileName + ".csv"));
+        var fileInfo = new FileInfo(filePath);
         using (StreamWriter sw = fileInfo.CreateText())
         {
             string saveText = "";
@@ -37,6 +41,8 @@ public static class SaveCsvFile
             {
                 saveText += onetime.ToString() + ',';
             }
+
+            saveText = saveText.TrimEnd(',');
             sw.Write(saveText);
         }
     }

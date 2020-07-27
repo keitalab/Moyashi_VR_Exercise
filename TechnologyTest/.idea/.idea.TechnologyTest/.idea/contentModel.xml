@@ -18,7 +18,7 @@
           <e p="lowerHeadPosition.cs" t="Include" />
           <e p="MultiPathCombine.cs" t="Include" />
           <e p="MusicStart.cs" t="Include" />
-          <e p="RestCube.cs" t="Include" />
+          <e p="ResetCube.cs" t="Include" />
           <e p="RKeyToRecenterPose.cs" t="Include" />
           <e p="SaveCsvFile.cs" t="Include" />
           <e p="SavePlayerTransform.cs" t="Include" />
