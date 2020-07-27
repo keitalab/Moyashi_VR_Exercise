@@ -5,32 +5,9 @@ using System.IO;
 using System.Text;
 using UnityEngine;
 
-public class LoadCsvFile : MonoBehaviour
+public static class LoadCsvFile
 {
-    private int progress;
-    
-    private List<List<float>> headTransform;
-    private List<List<float>> leftHandTransform;
-    private List<List<float>> rightHandTransform;
-    
-    [SerializeField] private GameObject head; /// <summary>
-    /// CenterEyeAnchor
-    /// </summary>
-    [SerializeField] private GameObject leftHand;/// <summary>
-    /// LeftHandAnchor
-    /// </summary>
-    [SerializeField] private GameObject rightHand;/// <summary>
-    /// RightHandAnchor
-    /// </summary>
-    private void Awake()
-    {
-        headTransform = Load(MultiPathCombine.Combine(Application.dataPath, "C#", "Head.csv"));
-        leftHandTransform = Load(MultiPathCombine.Combine(Application.dataPath, "C#", "LeftHand.csv"));
-        rightHandTransform = Load(MultiPathCombine.Combine(Application.dataPath, "C#", "RightHand.csv"));
-        progress = 0;
-    }
-
-    private List<List<float>> Load(string path)
+    public static List<List<float>> Load(string path)
     {
         var rowData = LoadCsvData(path);
 
@@ -56,7 +33,7 @@ public class LoadCsvFile : MonoBehaviour
         return returnData;
     }
     
-    private string[] LoadCsvData(string path)
+    private static string[] LoadCsvData(string path)
     {
         var fileInfo = new FileInfo(path);
 
@@ -72,17 +49,5 @@ public class LoadCsvFile : MonoBehaviour
         
         var rowData = readText.Split('\n');
         return rowData;
-    }
-    
-    private void FixedUpdate()
-    {
-        int yRotation = 0;
-        head.transform.localPosition = new Vector3(headTransform[progress][0], headTransform[progress][1], headTransform[progress][2]);
-        head.transform.localEulerAngles = new Vector3(headTransform[progress][3], headTransform[progress][4] + yRotation, headTransform[progress][5]);
-        leftHand.transform.localPosition = new Vector3((leftHandTransform[progress][0]), leftHandTransform[progress][1], leftHandTransform[progress][2]);
-        leftHand.transform.localEulerAngles = new Vector3(leftHandTransform[progress][3], leftHandTransform[progress][4] + yRotation, leftHandTransform[progress][5]);
-        rightHand.transform.localPosition = new Vector3((rightHandTransform[progress][0]), rightHandTransform[progress][1], rightHandTransform[progress][2]);
-        rightHand.transform.localEulerAngles = new Vector3(rightHandTransform[progress][3], rightHandTransform[progress][4] + yRotation, rightHandTransform[progress][5]);
-        progress++;
     }
 }
