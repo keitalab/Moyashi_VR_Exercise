@@ -45,12 +45,13 @@ public class Experience : SingletonMonoBehaviour<Experience>
     private Vector3 resetCubePosition = new Vector3(0.5f, 1f, 0f);
 
     private float timer;
+    private bool isTimerMoving = false;
     private List<float> timeList;
 
     private const int AmountTaskCount = 10;
     private int clearTaskCount;
     private int readExplanationCount;
-    [SerializeField] private GameObject taskCube;
+    public GameObject taskCube;
     [SerializeField] private GameObject resetCube;
     [SerializeField] private Text explanationText;
     private IEnumerator activeTaskCoroutine;
@@ -64,7 +65,7 @@ public class Experience : SingletonMonoBehaviour<Experience>
 
     private void Update()
     {
-        if (nowTaskStatus != TaskStatus.None)
+        if (nowTaskStatus != TaskStatus.None && isTimerMoving)
         {
             timer += Time.deltaTime;
             return;
@@ -151,16 +152,29 @@ public class Experience : SingletonMonoBehaviour<Experience>
     private void StartTask()
     {
         timer = 0;
+        isTimerMoving = false;
         timeList = new List<float>();
 
         Instantiate(resetCube, resetCubePosition, Quaternion.identity);
     }
 
+    public void InstantiateTaskCube()
+    {
+        Vector3 instantiatePosition = new Vector3(
+            Random.Range(0f, 0.7f),
+            Random.Range(0f, 1f),
+            Random.Range(-0.7f, 0f)
+        );
+        Instantiate(taskCube, instantiatePosition, Quaternion.identity);
+        isTimerMoving = true;
+    }
+    
     public void ClearTask()
     {
         if (nowTaskStatus == TaskStatus.LeftPreTasking || nowTaskStatus == TaskStatus.RightPreTasking)
         {
             nowTaskStatus = TaskStatus.None;
+            isTimerMoving = false;
             return;
         }
         else
@@ -169,6 +183,7 @@ public class Experience : SingletonMonoBehaviour<Experience>
             {
                 timeList.Add(timer);
                 timer = 0;
+                isTimerMoving = false;
                 Instantiate(resetCube, resetCubePosition, Quaternion.identity);
                 clearTaskCount++;
             }
@@ -179,25 +194,10 @@ public class Experience : SingletonMonoBehaviour<Experience>
                     string path = MultiPathCombine.Combine(Application.dataPath, "Experience");
                     SaveCsvFile.WriteExperienceCsvData(path, nowTaskStatus.ToString() + DateTime.Now.ToString(), timeList);
                     nowTaskStatus = TaskStatus.None;
+                    timer = 0f;
+                    isTimerMoving = false;
                 }
             }
-        }
-    }
-
-    private IEnumerator Task()
-    {
-        Vector3 instantiatePosition = new Vector3(
-            Random.Range(0f, 0.5f),
-            Random.Range(0f, 1f),
-            Random.Range(-0.5f, 0.5f)
-        );
-        Quaternion instantiateQuaternion = Quaternion.identity;
-        Instantiate(taskObject, instantiatePosition, instantiateQuaternion);
-
-        while (true)
-        {
-            timer += Time.deltaTime;
-            yield return null;
         }
     }
 

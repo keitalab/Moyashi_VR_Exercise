@@ -2,8 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
-public class RestCubeInstantiate : MonoBehaviour
+public class TaskCube : MonoBehaviour
 {
     private Experience experience;
     private Material material;
@@ -71,7 +72,8 @@ public class RestCubeInstantiate : MonoBehaviour
             {
                 if (OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
                 {
-                    
+                    experience.ClearTask();
+                    Destroy(this.gameObject);
                 }
             }
         }
@@ -80,9 +82,11 @@ public class RestCubeInstantiate : MonoBehaviour
         {
             if (other.gameObject.name == "hand.R_end")
             {
-                Color color = material.color;
-                color.a = 0.5f;
-                material.color = color;
+                if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
+                {
+                    experience.ClearTask();
+                    Destroy(this.gameObject);
+                }
             }
         }
     }

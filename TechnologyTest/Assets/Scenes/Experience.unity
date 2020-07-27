@@ -220,7 +220,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332017549}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -266,8 +266,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332017549}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.988, z: -0.128}
-  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
+  m_LocalPosition: {x: 0.5, y: 1, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -478,9 +478,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 610ffbb644558564bb6cc47e206c5f0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerObject: {fileID: 1366943712}
-  taskObject: {fileID: 2384032384002397179, guid: 69db5847d8f292d498afd1f2d32a3a55,
-    type: 3}
+  taskCube: {fileID: 0}
+  resetCube: {fileID: 0}
+  explanationText: {fileID: 0}
 --- !u!4 &1068118372
 Transform:
   m_ObjectHideFlags: 0
