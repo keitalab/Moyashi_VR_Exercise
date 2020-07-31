@@ -3,31 +3,174 @@
   <component name="ChangeListManager">
     <list default="true" id="57d02fc4-12fc-447e-b07e-6bc0000c255d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TechnologyTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TechnologyTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/C#/Experience.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C#/Experience.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/C#/RestCube.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/C#/RestCube.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/C#/SaveCsvFile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C#/SaveCsvFile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/C#/TaskCube.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/C#/TaskCube.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/BallPhysics.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/BallPhysics.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/ballColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/ballColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/controllerPlane.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/controllerPlane.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Render Texture.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Render Texture.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/White.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/White.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/CheckDistanceSphere.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/CheckDistanceSphere.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TaskSphere.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TaskSphere.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/valleyBall.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/valleyBall.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Experience.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Experience.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01a.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01a.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01a.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01a.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioManagerInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioManagerInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioManagerInspector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioManagerInspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MinMaxPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MinMaxPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MinMaxPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MinMaxPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/OSPPropsPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/OSPPropsPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/OSPPropsPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/OSPPropsPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXRefPropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXRefPropertyDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXRefPropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXRefPropertyDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor/DrawerInspectorNote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor/DrawerInspectorNote.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor/DrawerInspectorNote.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor/DrawerInspectorNote.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/Info.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/Info.plist.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/First Person Controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/First Person Controller.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/First Person Controller.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/First Person Controller.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/car.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/car.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/hammer.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/hammer.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/horse.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/horse.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/loop.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/loop.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/noise.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/noise.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/scraping.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/scraping.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/sine.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/sine.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/speech.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/speech.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/uss.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/uss.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/water.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/water.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TaskCube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/TaskCube.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +185,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/PauseOnInputLoss.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-30">
+                <state relative-caret-position="255">
                   <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
                   <folding>
                     <marker date="1576216335113" expanded="true" signature="0:575" ph="/* Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
@@ -60,7 +203,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="619">
+                <state relative-caret-position="1995">
                   <caret line="168" column="45" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="45" />
                   <folding>
                     <marker date="1573568174171" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
@@ -394,7 +537,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/C#/MusicStart.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
+                <state relative-caret-position="30">
                   <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
                   <folding>
                     <marker date="1595841476510" expanded="true" signature="6:92" ph="..." />
@@ -409,7 +552,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/C#/SaveCsvFile.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
+                <state relative-caret-position="315">
                   <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
                   <folding>
                     <marker date="1595866971606" expanded="true" signature="6:109" ph="..." />
@@ -429,44 +572,44 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/C#/Experience.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-971">
-                  <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+                <state relative-caret-position="679">
+                  <caret line="212" column="29" selection-start-line="212" selection-start-column="29" selection-end-line="212" selection-end-column="29" />
                   <folding>
-                    <marker date="1595867678837" expanded="true" signature="6:149" ph="..." />
-                    <marker date="1595867678837" expanded="true" signature="211:7895" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="405:1446" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="1534:1584" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2072:2201" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2228:5245" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2297:2374" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2443:2670" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2510:2660" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2714:3030" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2781:3020" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3074:3301" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3141:3291" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3345:3662" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3412:3652" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3737:3966" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3806:3956" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4011:4328" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4080:4318" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4373:4602" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4442:4592" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4647:4965" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4716:4955" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5010:5239" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5079:5229" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5275:5476" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5515:6195" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5661:5866" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5879:6085" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6224:7740" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6333:6612" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6625:7734" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6685:6930" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6947:7724" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="7768:7893" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6:149" ph="..." />
+                    <marker date="1595867844530" expanded="true" signature="211:7891" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="405:1446" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="1534:1584" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2072:2201" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2228:5245" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2297:2374" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2443:2670" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2510:2660" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2714:3030" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2781:3020" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3074:3301" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3141:3291" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3345:3662" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3412:3652" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3737:3966" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3806:3956" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4011:4328" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4080:4318" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4373:4602" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4442:4592" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4647:4965" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4716:4955" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5010:5239" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5079:5229" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5275:5476" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5515:6195" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5661:5866" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5879:6085" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6224:7736" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6333:6612" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6625:7730" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6715:6926" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6943:7720" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="7764:7889" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -475,7 +618,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/C#/LoadCsvFile.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="690">
+                <state relative-caret-position="645">
                   <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
                   <folding>
                     <marker date="1595834140377" expanded="false" signature="6:128" ph="..." />
@@ -496,7 +639,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/C#/TaskCube.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="724">
+                <state relative-caret-position="1200">
                   <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
                   <folding>
                     <marker date="1595861831168" expanded="false" signature="6:127" ph="..." />
@@ -526,7 +669,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/C#/ResetCube.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="664">
+                <state relative-caret-position="1200">
                   <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
                   <folding>
                     <marker date="1595861830041" expanded="false" signature="6:127" ph="..." />
@@ -556,11 +699,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/C#/SaveCsvFile.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
+                <state relative-caret-position="615">
                   <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
                   <folding>
                     <marker date="1595866971606" expanded="true" signature="6:109" ph="..." />
@@ -578,9 +721,29 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/ExperienceData/RightRealTasking_2020_7_31_16_49_39.csv">
+              <provider selected="true" editor-type-id="csv-text-editor" />
+              <provider editor-type-id="csv-table-editor">
+                <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/ExperienceData/LeftRealTasking_2020_7_31_15_24_4.csv">
+              <provider selected="true" editor-type-id="csv-text-editor">
+                <state>
+                  <caret column="83" lean-forward="true" selection-start-column="83" selection-end-column="83" />
+                </state>
+              </provider>
+              <provider editor-type-id="csv-table-editor">
+                <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/C#/SavePlayerTransform.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
+                <state relative-caret-position="330">
                   <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
                   <folding>
                     <marker date="1595848526708" expanded="false" signature="6:78" ph="..." />
@@ -602,44 +765,44 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/C#/Experience.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-243">
+                <state relative-caret-position="1575">
                   <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
                   <folding>
-                    <marker date="1595867678837" expanded="true" signature="6:149" ph="..." />
-                    <marker date="1595867678837" expanded="true" signature="211:7895" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="405:1446" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="1534:1584" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2072:2201" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2228:5245" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2297:2374" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2443:2670" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2510:2660" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2714:3030" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="2781:3020" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3074:3301" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3141:3291" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3345:3662" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3412:3652" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3737:3966" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="3806:3956" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4011:4328" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4080:4318" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4373:4602" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4442:4592" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4647:4965" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="4716:4955" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5010:5239" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5079:5229" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5275:5476" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5515:6195" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5661:5866" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="5879:6085" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6224:7740" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6333:6612" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6625:7734" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6685:6930" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="6947:7724" ph="{...}" />
-                    <marker date="1595867678837" expanded="true" signature="7768:7893" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6:149" ph="..." />
+                    <marker date="1595867844530" expanded="true" signature="211:7891" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="405:1446" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="1534:1584" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2072:2201" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2228:5245" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2297:2374" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2443:2670" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2510:2660" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2714:3030" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="2781:3020" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3074:3301" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3141:3291" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3345:3662" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3412:3652" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3737:3966" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="3806:3956" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4011:4328" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4080:4318" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4373:4602" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4442:4592" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4647:4965" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="4716:4955" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5010:5239" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5079:5229" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5275:5476" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5515:6195" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5661:5866" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="5879:6085" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6224:7736" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6333:6612" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6625:7730" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6715:6926" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="6943:7720" ph="{...}" />
+                    <marker date="1595867844530" expanded="true" signature="7764:7889" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -713,7 +876,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="35" />
     <option name="y" value="69" />
     <option name="width" value="1936" />
@@ -728,11 +891,11 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -792,12 +955,13 @@
       <workItem from="1583487418952" duration="9773000" />
       <workItem from="1592363709769" duration="4476000" />
       <workItem from="1595833717678" duration="261000" />
-      <workItem from="1595837531530" duration="17828000" />
+      <workItem from="1595837531530" duration="18592000" />
+      <workItem from="1596181907358" duration="913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43383000" />
+    <option name="totallyTimeSpent" value="45060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -809,9 +973,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="35" y="69" width="1936" height="1093" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08343266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08422175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1784,9 +1948,31 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/C#/ExperienceBall.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/C#/RestCubeInstantiate.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/C#/RestCube.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/C#/VibrationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1573734454760" expanded="true" signature="6:78" ph="..." />
+            <marker date="1573734454760" expanded="true" signature="127:1107" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="345:758" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="405:752" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="442:559" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="576:693" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="808:1105" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="884:985" ph="{...}" />
+            <marker date="1573734454760" expanded="true" signature="998:1099" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ExperienceData/RightRealTasking_2020_7_28_1_17_55.csv" />
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/PauseOnInputLoss.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
+        <state relative-caret-position="255">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
             <marker date="1576216335113" expanded="true" signature="0:575" ph="/* Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
@@ -1802,7 +1988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
+        <state relative-caret-position="1995">
           <caret line="168" column="45" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="45" />
           <folding>
             <marker date="1573568174171" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
@@ -2132,48 +2318,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C#/ExperienceBall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C#/RestCubeInstantiate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C#/RestCube.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C#/VibrationController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <marker date="1573734454760" expanded="true" signature="6:78" ph="..." />
-            <marker date="1573734454760" expanded="true" signature="127:1107" ph="{...}" />
-            <marker date="1573734454760" expanded="true" signature="345:758" ph="{...}" />
-            <marker date="1573734454760" expanded="true" signature="405:752" ph="{...}" />
-            <marker date="1573734454760" expanded="true" signature="442:559" ph="{...}" />
-            <marker date="1573734454760" expanded="true" signature="576:693" ph="{...}" />
-            <marker date="1573734454760" expanded="true" signature="808:1105" ph="{...}" />
-            <marker date="1573734454760" expanded="true" signature="884:985" ph="{...}" />
-            <marker date="1573734454760" expanded="true" signature="998:1099" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/C#/MusicStart.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="30">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <marker date="1595841476510" expanded="true" signature="6:92" ph="..." />
@@ -2186,7 +2333,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/C#/LoadCsvFile.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="645">
           <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <marker date="1595834140377" expanded="false" signature="6:128" ph="..." />
@@ -2203,37 +2350,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C#/ResetCube.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
-          <folding>
-            <marker date="1595861830041" expanded="false" signature="6:127" ph="..." />
-            <marker date="1595861830041" expanded="true" signature="167:3128" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="291:440" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="488:1337" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="653:906" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="718:896" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="1078:1331" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="1143:1321" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="1384:2228" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="1549:1800" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="1614:1790" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="1971:2222" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="2036:2212" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="2255:3126" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="2282:3120" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="2459:2695" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="2545:2681" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="2874:3110" ph="{...}" />
-            <marker date="1595861830041" expanded="true" signature="2960:3096" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/C#/TaskCube.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
+        <state relative-caret-position="1200">
           <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
           <folding>
             <marker date="1595861831168" expanded="false" signature="6:127" ph="..." />
@@ -2259,9 +2378,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/C#/ResetCube.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+          <folding>
+            <marker date="1595861830041" expanded="false" signature="6:127" ph="..." />
+            <marker date="1595861830041" expanded="true" signature="167:3128" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="291:440" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="488:1337" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="653:906" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="718:896" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="1078:1331" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="1143:1321" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="1384:2228" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="1549:1800" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="1614:1790" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="1971:2222" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="2036:2212" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="2255:3126" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="2282:3120" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="2459:2695" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="2545:2681" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="2874:3110" ph="{...}" />
+            <marker date="1595861830041" expanded="true" signature="2960:3096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/C#/SaveCsvFile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <marker date="1595866971606" expanded="true" signature="6:109" ph="..." />
+            <marker date="1595866971606" expanded="true" signature="142:1329" ph="{...}" />
+            <marker date="1595866971606" expanded="true" signature="239:678" ph="{...}" />
+            <marker date="1595866971606" expanded="true" signature="353:672" ph="{...}" />
+            <marker date="1595866971606" expanded="true" signature="432:630" ph="{...}" />
+            <marker date="1595866971606" expanded="true" signature="491:581" ph="{...}" />
+            <marker date="1595866971606" expanded="true" signature="774:1327" ph="{...}" />
+            <marker date="1595866971606" expanded="true" signature="1072:1321" ph="{...}" />
+            <marker date="1595866971606" expanded="true" signature="1150:1232" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/C#/SavePlayerTransform.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="330">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding>
             <marker date="1595848526708" expanded="false" signature="6:78" ph="..." />
@@ -2279,72 +2444,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C#/SaveCsvFile.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/C#/Experience.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="1575">
+          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
           <folding>
-            <marker date="1595866971606" expanded="true" signature="6:109" ph="..." />
-            <marker date="1595866971606" expanded="true" signature="142:1329" ph="{...}" />
-            <marker date="1595866971606" expanded="true" signature="239:678" ph="{...}" />
-            <marker date="1595866971606" expanded="true" signature="353:672" ph="{...}" />
-            <marker date="1595866971606" expanded="true" signature="432:630" ph="{...}" />
-            <marker date="1595866971606" expanded="true" signature="491:581" ph="{...}" />
-            <marker date="1595866971606" expanded="true" signature="774:1327" ph="{...}" />
-            <marker date="1595866971606" expanded="true" signature="1072:1321" ph="{...}" />
-            <marker date="1595866971606" expanded="true" signature="1150:1232" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="6:149" ph="..." />
+            <marker date="1595867844530" expanded="true" signature="211:7891" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="405:1446" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="1534:1584" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="2072:2201" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="2228:5245" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="2297:2374" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="2443:2670" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="2510:2660" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="2714:3030" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="2781:3020" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="3074:3301" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="3141:3291" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="3345:3662" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="3412:3652" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="3737:3966" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="3806:3956" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="4011:4328" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="4080:4318" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="4373:4602" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="4442:4592" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="4647:4965" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="4716:4955" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="5010:5239" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="5079:5229" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="5275:5476" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="5515:6195" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="5661:5866" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="5879:6085" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="6224:7736" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="6333:6612" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="6625:7730" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="6715:6926" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="6943:7720" ph="{...}" />
+            <marker date="1595867844530" expanded="true" signature="7764:7889" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ExperienceData/RightRealTasking_2020_7_28_1_17_55.csv">
+    <entry file="file://$PROJECT_DIR$/Assets/ExperienceData/RightRealTasking_2020_7_31_16_49_39.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/C#/Experience.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-971">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding>
-            <marker date="1595867678837" expanded="true" signature="6:149" ph="..." />
-            <marker date="1595867678837" expanded="true" signature="211:7895" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="405:1446" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="1534:1584" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="2072:2201" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="2228:5245" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="2297:2374" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="2443:2670" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="2510:2660" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="2714:3030" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="2781:3020" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="3074:3301" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="3141:3291" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="3345:3662" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="3412:3652" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="3737:3966" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="3806:3956" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="4011:4328" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="4080:4318" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="4373:4602" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="4442:4592" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="4647:4965" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="4716:4955" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="5010:5239" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="5079:5229" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="5275:5476" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="5515:6195" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="5661:5866" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="5879:6085" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="6224:7740" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="6333:6612" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="6625:7734" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="6685:6930" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="6947:7724" ph="{...}" />
-            <marker date="1595867678837" expanded="true" signature="7768:7893" ph="{...}" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Assets/ExperienceData/LeftRealTasking_2020_7_31_15_24_4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="83" lean-forward="true" selection-start-column="83" selection-end-column="83" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
