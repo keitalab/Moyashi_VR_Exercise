@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -10,7 +11,7 @@ public class Experience : SingletonMonoBehaviour<Experience>
     private const string aButtonClick = "\n右手のAボタンクリックで進む";
     private const string xButtonClick = "\n左手のXボタンクリックで進む";
 
-    private List<String> explanationTextList = new List<string>()
+    private List<String> beforeRightPreTaskTextList = new List<string>()
     {
         "このタスクでは、黒いキューブと赤いキューブが出現します" + aButtonClick,
         "本実験では、右手と左手に分けてタスクを行います" + aButtonClick,
@@ -19,30 +20,32 @@ public class Experience : SingletonMonoBehaviour<Experience>
         "次に、赤いキューブが出現するので、赤いキューブに右手を合わせ、右手のトリガーを引いてください" + aButtonClick,
         "右手が赤いキューブ内にある際には、赤いキューブの色が半透明になります" + aButtonClick,
         "それでは、1度右手での練習タスクを試行します" + aButtonClick,
-
-        "",
-
+    };
+    
+    private List<String> beforeRightRealTaskTextList = new List<string>()
+    {
         "本タスクでは、この練習タスクを10回連続で施行されます。" + aButtonClick,
         "それでは、右手での本タスクを試行します。" + aButtonClick,
-
-        "",
-
+    };
+    
+    private List<String> beforeLeftPreTaskTextList = new List<string>()
+    {
         "続いて、左手で同様のタスクを行います。" + xButtonClick,
         "まず、黒いキューブに左手を合わせ、左手のトリガーを引いてください" + xButtonClick,
         "次に、赤いキューブが出現するので、赤いキューブに右手を合わせ、左手のトリガーを引いてください。" + xButtonClick,
         "左手が赤いキューブ内にある際には、赤いキューブの色が半透明になります。" + xButtonClick,
         "それでは、1度左手での練習タスクを試行します。" + xButtonClick,
-
-        "",
-
+    };
+    
+    private List<String> beforeLeftRealTaskTextList = new List<string>()
+    {
         "本タスクでは、この練習タスクを10回連続で施行されます。" + xButtonClick,
         "それでは、左手での本タスクを試行します。" + xButtonClick,
-
-        "",
-
+    };
+    
+    private List<String> afterExperienceTextList = new List<string>()
+    {
         "実験は以上になります。ありがとうございました。" + xButtonClick,
-        
-        "",
     };
 
     private TaskStatus nowTaskStatus;
@@ -52,7 +55,7 @@ public class Experience : SingletonMonoBehaviour<Experience>
         get { return nowTaskStatus; }
     }
 
-    private Vector3 resetCubePosition = new Vector3(0.5f, 1f, 0f);
+    private Vector3 resetCubePosition;
 
     private float timer;
     private bool isTimerMoving = false;
@@ -70,95 +73,87 @@ public class Experience : SingletonMonoBehaviour<Experience>
     {
         clearTaskCount = 0;
         readExplanationCount = 0;
-        explanationText.text = explanationTextList[0];
+        explanationText.text = beforeRightPreTaskTextList[readExplanationCount];
+        //nowTaskStatus = TaskStatus.BeforeExperience;
+        nowTaskStatus = TaskStatus.RightPreDescription;
+        resetCubePosition = new Vector3(this.gameObject.transform.position.x + 0.5f,
+            this.gameObject.transform.position.y + 1f, this.gameObject.transform.position.z);
     }
 
     private void Update()
     {
-        if (nowTaskStatus != TaskStatus.None && isTimerMoving)
+        if ((nowTaskStatus == TaskStatus.LeftRealTasking || nowTaskStatus == TaskStatus.RightRealTasking) && isTimerMoving)
         {
             timer += Time.deltaTime;
             return;
         }
-
-        if (0 <= readExplanationCount && readExplanationCount <= 5)
+        
+        if (nowTaskStatus == TaskStatus.RightPreDescription)
         {
             if ((OVRInput.GetDown(OVRInput.Button.One)))
             {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
+                if (readExplanationCount < beforeRightPreTaskTextList.Count - 1)
+                {
+                    readExplanationCount++;
+                    explanationText.text = beforeRightPreTaskTextList[readExplanationCount];
+                }
+                else if (readExplanationCount == beforeRightPreTaskTextList.Count - 1)
+                {
+                    explanationText.text = "";
+                    StartTask();
+                    nowTaskStatus = TaskStatus.RightPreTasking;
+                }
             }
         }
-        else if (readExplanationCount == 6)
+        else if (nowTaskStatus == TaskStatus.RightRealDescription)
         {
             if ((OVRInput.GetDown(OVRInput.Button.One)))
             {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
-                StartTask();
-                nowTaskStatus = TaskStatus.RightPreTasking;
+                if (readExplanationCount < beforeRightRealTaskTextList.Count - 1)
+                {
+                    readExplanationCount++;
+                    explanationText.text = beforeRightRealTaskTextList[readExplanationCount];
+                }
+                else if (readExplanationCount == beforeRightRealTaskTextList.Count - 1)
+                {
+                    explanationText.text = "";
+                    StartTask();
+                    nowTaskStatus = TaskStatus.RightRealTasking;
+                }
             }
         }
-        else if (readExplanationCount == 8)
-        {
-            if ((OVRInput.GetDown(OVRInput.Button.One)))
-            {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
-            }
-        }
-        else if (readExplanationCount == 9)
-        {
-            if ((OVRInput.GetDown(OVRInput.Button.One)))
-            {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
-                StartTask();
-                nowTaskStatus = TaskStatus.RightRealTasking;
-            }
-        }
-        else if (11 <= readExplanationCount && readExplanationCount <= 14)
+        else if (nowTaskStatus == TaskStatus.LeftPreDescription)
         {
             if ((OVRInput.GetDown(OVRInput.Button.Three)))
             {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
+                if (readExplanationCount < beforeLeftPreTaskTextList.Count - 1)
+                {
+                    readExplanationCount++;
+                    explanationText.text = beforeLeftPreTaskTextList[readExplanationCount];
+                }
+                else if (readExplanationCount == beforeLeftPreTaskTextList.Count - 1)
+                {
+                    explanationText.text = "";
+                    StartTask();
+                    nowTaskStatus = TaskStatus.LeftPreTasking;
+                }
             }
         }
-        else if (readExplanationCount == 15)
+        else if (nowTaskStatus == TaskStatus.LeftRealDescription)
         {
             if ((OVRInput.GetDown(OVRInput.Button.Three)))
             {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
-                StartTask();
-                nowTaskStatus = TaskStatus.LeftPreTasking;
-            }
-        }
-        else if (readExplanationCount == 17)
-        {
-            if ((OVRInput.GetDown(OVRInput.Button.Three)))
-            {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
-            }
-        }
-        else if (readExplanationCount == 18)
-        {
-            if ((OVRInput.GetDown(OVRInput.Button.Three)))
-            {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
-                StartTask();
-                nowTaskStatus = TaskStatus.LeftRealTasking;
-            }
-        }
-        else if (readExplanationCount == 20)
-        {
-            if ((OVRInput.GetDown(OVRInput.Button.Three)))
-            {
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
+                if (readExplanationCount < beforeLeftRealTaskTextList.Count - 1)
+                {
+                    readExplanationCount++;
+                    explanationText.text = beforeLeftRealTaskTextList[readExplanationCount];
+                }
+                else if (readExplanationCount == beforeLeftRealTaskTextList.Count - 1)
+                {
+                    explanationText.text = "";
+                    StartTask();
+                    nowTaskStatus = TaskStatus.LeftRealTasking;
+                }
             }
         }
     }
@@ -179,17 +174,17 @@ public class Experience : SingletonMonoBehaviour<Experience>
         if (nowTaskStatus == TaskStatus.LeftPreTasking || nowTaskStatus == TaskStatus.LeftRealTasking)
         {
             instantiatePosition = new Vector3(
-                Random.Range(0.2f, 0.7f),
-                Random.Range(0.3f, 1.5f),
-                Random.Range(0f, 0.7f)
+                Random.Range(0.2f, 0.8f) + this.gameObject.transform.position.x,
+                Random.Range(0.3f, 1.5f) + this.gameObject.transform.position.y,
+                Random.Range(0f, 0.7f) + this.gameObject.transform.position.z
             );
         }
         else
         {
             instantiatePosition = new Vector3(
-                Random.Range(0.2f, 0.7f),
-                Random.Range(0.3f, 1.5f),
-                Random.Range(-0.7f, 0f)
+                Random.Range(0.2f, 0.8f) + this.gameObject.transform.position.x,
+                Random.Range(0.3f, 1.5f) + this.gameObject.transform.position.y,
+                Random.Range(-0.7f, 0f) + this.gameObject.transform.position.z
             );
         }
 
@@ -199,13 +194,20 @@ public class Experience : SingletonMonoBehaviour<Experience>
 
     public void ClearTask()
     {
-        if (nowTaskStatus == TaskStatus.LeftPreTasking || nowTaskStatus == TaskStatus.RightPreTasking)
+        if (nowTaskStatus == TaskStatus.LeftPreTasking)
         {
-            nowTaskStatus = TaskStatus.None;
+            nowTaskStatus = TaskStatus.LeftRealDescription;
             isTimerMoving = false;
-            readExplanationCount++;
-            explanationText.text = explanationTextList[readExplanationCount];
-            Debug.Log(readExplanationCount);
+            readExplanationCount = 0;
+            explanationText.text = beforeLeftRealTaskTextList[0];
+            return;
+        }
+        else if (nowTaskStatus == TaskStatus.RightPreTasking)
+        {
+            nowTaskStatus = TaskStatus.RightRealDescription;
+            isTimerMoving = false;
+            readExplanationCount = 0;
+            explanationText.text = beforeRightRealTaskTextList[readExplanationCount];
             return;
         }
         else
@@ -224,22 +226,35 @@ public class Experience : SingletonMonoBehaviour<Experience>
                 string dateText = DateTime.Now.Year.ToString() +"_"+ DateTime.Now.Month.ToString() +"_" + DateTime.Now.Day.ToString() +"_"+
                     DateTime.Now.Hour.ToString() + "_" + DateTime.Now.Minute.ToString() + "_" + DateTime.Now.Second.ToString();
                 SaveCsvFile.WriteExperienceCsvData(path, nowTaskStatus.ToString() + "_" + dateText, timeList);
-                nowTaskStatus = TaskStatus.None;
                 timer = 0f;
                 isTimerMoving = false;
                 clearTaskCount = 0;
-                readExplanationCount++;
-                explanationText.text = explanationTextList[readExplanationCount];
+                readExplanationCount = 0;
+                if (nowTaskStatus == TaskStatus.RightRealTasking)
+                {
+                    nowTaskStatus = TaskStatus.LeftPreDescription;
+                    explanationText.text = beforeLeftPreTaskTextList[readExplanationCount];
+                }
+                else if (nowTaskStatus == TaskStatus.LeftRealTasking)
+                {
+                    nowTaskStatus = TaskStatus.AfterExperience;
+                    explanationText.text = afterExperienceTextList[readExplanationCount];
+                }
             }
         }
     }
 
     public enum TaskStatus
     {
-        LeftPreTasking,
-        LeftRealTasking,
+        BeforeExperience,
+        RightPreDescription,
         RightPreTasking,
+        RightRealDescription,
         RightRealTasking,
-        None
+        LeftPreDescription,
+        LeftPreTasking,
+        LeftRealDescription,
+        LeftRealTasking,
+        AfterExperience,
     }
 }

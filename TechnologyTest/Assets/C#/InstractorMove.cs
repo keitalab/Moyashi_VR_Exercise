@@ -29,7 +29,7 @@ public class InstractorMove : MonoBehaviour
     
     private void FixedUpdate()
     {
-        if (progress > headTransform.Count)
+        if (progress >= headTransform.Count - 1)
         {
             return;
         }
