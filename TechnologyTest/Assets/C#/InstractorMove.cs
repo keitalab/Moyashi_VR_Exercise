@@ -29,6 +29,11 @@ public class InstractorMove : MonoBehaviour
     
     private void FixedUpdate()
     {
+        if (progress > headTransform.Count)
+        {
+            return;
+        }
+        
         int yRotation = 0;
         head.transform.localPosition = new Vector3(headTransform[progress][0], headTransform[progress][1], headTransform[progress][2]);
         head.transform.localEulerAngles = new Vector3(headTransform[progress][3], headTransform[progress][4] + yRotation, headTransform[progress][5]);
