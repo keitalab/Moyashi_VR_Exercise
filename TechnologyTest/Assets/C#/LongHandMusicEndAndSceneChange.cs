@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class LongHandMusicEndAndSceneChange : MonoBehaviour
 {
     private float elapsedTime = 0f;
-    private int musicTime = 240;
+    private int musicTime = 200;
 
     private void Update()
     {

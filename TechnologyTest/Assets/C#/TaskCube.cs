@@ -6,65 +6,51 @@ using Random = UnityEngine.Random;
 
 public class TaskCube : MonoBehaviour
 {
-    private Experience experience;
-    private Material material;
+    private Experiment experiment;
     private bool isExist;
     
     private void Start()
     {
         isExist = false;
-        experience = Experience.Instance;
-        material = this.gameObject.GetComponent<Renderer>().material;
+        experiment = Experiment.Instance;
     }
 
     public void OnTriggerEnter(Collider other)
     {
-        if (experience.GetTaskStatus == Experience.TaskStatus.LeftPreTasking ||
-            experience.GetTaskStatus == Experience.TaskStatus.LeftRealTasking)
+        if (experiment.GetTaskStatus == Experiment.TaskStatus.LeftPreTasking ||
+            experiment.GetTaskStatus == Experiment.TaskStatus.LeftRealTasking)
         {
             if (other.gameObject.name == "hand.L_end")
             {
                 isExist = true;
-                Color color = material.color;
-                color.a = 0.5f;
-                material.color = color;
             }
         }
-        else if (experience.GetTaskStatus == Experience.TaskStatus.RightPreTasking ||
-                  experience.GetTaskStatus == Experience.TaskStatus.RightRealTasking)
+        else if (experiment.GetTaskStatus == Experiment.TaskStatus.RightPreTasking ||
+                  experiment.GetTaskStatus == Experiment.TaskStatus.RightRealTasking)
         {
             if (other.gameObject.name == "hand.R_end")
             {
                 isExist = true;
-                Color color = material.color;
-                color.a = 0.5f;
-                material.color = color;
             }
         }
     }
 
     public void OnTriggerExit(Collider other)
     {
-        if (experience.GetTaskStatus == Experience.TaskStatus.LeftPreTasking ||
-            experience.GetTaskStatus == Experience.TaskStatus.LeftRealTasking)
+        if (experiment.GetTaskStatus == Experiment.TaskStatus.LeftPreTasking ||
+            experiment.GetTaskStatus == Experiment.TaskStatus.LeftRealTasking)
         {
             if (other.gameObject.name == "hand.L_end")
             {
                 isExist = false;
-                Color color = material.color;
-                color.a = 1f;
-                material.color = color;
             }
         }
-        else if (experience.GetTaskStatus == Experience.TaskStatus.RightPreTasking ||
-                 experience.GetTaskStatus == Experience.TaskStatus.RightRealTasking)
+        else if (experiment.GetTaskStatus == Experiment.TaskStatus.RightPreTasking ||
+                 experiment.GetTaskStatus == Experiment.TaskStatus.RightRealTasking)
         {
             if (other.gameObject.name == "hand.R_end")
             {
                 isExist = false;
-                Color color = material.color;
-                color.a = 1f;
-                material.color = color;
             }
         }
     }
@@ -73,21 +59,21 @@ public class TaskCube : MonoBehaviour
     {
         if (isExist)
         {
-            if (experience.GetTaskStatus == Experience.TaskStatus.LeftPreTasking ||
-                experience.GetTaskStatus == Experience.TaskStatus.LeftRealTasking)
+            if (experiment.GetTaskStatus == Experiment.TaskStatus.LeftPreTasking ||
+                experiment.GetTaskStatus == Experiment.TaskStatus.LeftRealTasking)
             {
                 if (OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
                 {
-                    experience.ClearTask();
+                    experiment.ClearTask(this.gameObject.transform.position);
                     Destroy(this.gameObject);
                 }
             }
-            else if (experience.GetTaskStatus == Experience.TaskStatus.RightPreTasking ||
-                     experience.GetTaskStatus == Experience.TaskStatus.RightRealTasking)
+            else if (experiment.GetTaskStatus == Experiment.TaskStatus.RightPreTasking ||
+                     experiment.GetTaskStatus == Experiment.TaskStatus.RightRealTasking)
             {
                 if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
                 {
-                    experience.ClearTask();
+                    experiment.ClearTask(this.gameObject.transform.position);
                     Destroy(this.gameObject);
                 }
             }

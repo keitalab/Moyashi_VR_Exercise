@@ -6,10 +6,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-public class Experience : SingletonMonoBehaviour<Experience>
+public class Experiment : SingletonMonoBehaviour<Experiment>
 {
     private const string aButtonClick = "\n右手のAボタンクリックで進む";
     private const string xButtonClick = "\n左手のXボタンクリックで進む";
+    [SerializeField] private GameObject handL_end;
+    [SerializeField] private GameObject handR_end;
 
     private List<String> beforeRightPreTaskTextList = new List<string>()
     {
@@ -43,14 +45,14 @@ public class Experience : SingletonMonoBehaviour<Experience>
         "それでは、左手での本タスクを試行します。" + xButtonClick,
     };
     
-    private List<String> afterExperienceTextList = new List<string>()
+    private List<String> afterExperimentTextList = new List<string>()
     {
         "実験は以上になります。ありがとうございました。" + xButtonClick,
     };
 
     private TaskStatus nowTaskStatus;
 
-    public Experience.TaskStatus GetTaskStatus
+    public Experiment.TaskStatus GetTaskStatus
     {
         get { return nowTaskStatus; }
     }
@@ -59,7 +61,31 @@ public class Experience : SingletonMonoBehaviour<Experience>
 
     private float timer;
     private bool isTimerMoving = false;
-    private List<float> timeList;
+    private List<TimeAndDistance> timeAndDistanceList;
+
+    public class TimeAndDistance
+    {
+        public TimeAndDistance(float time, float distance)
+        {
+            this.time = time;
+            this.distance = distance;
+        }
+        
+        private float time;
+        public float GetTime
+        {
+            get
+            {
+                return time;
+            }
+        }
+        private float distance;
+
+        public float GetDistance
+        {
+            get { return distance; }
+        }
+    }
 
     private const int AmountTaskCount = 10;
     private int clearTaskCount;
@@ -74,7 +100,7 @@ public class Experience : SingletonMonoBehaviour<Experience>
         clearTaskCount = 0;
         readExplanationCount = 0;
         explanationText.text = beforeRightPreTaskTextList[readExplanationCount];
-        //nowTaskStatus = TaskStatus.BeforeExperience;
+        //nowTaskStatus = TaskStatus.BeforeExperiment;
         nowTaskStatus = TaskStatus.RightPreDescription;
         resetCubePosition = new Vector3(this.gameObject.transform.position.x + 0.5f,
             this.gameObject.transform.position.y + 1f, this.gameObject.transform.position.z);
@@ -163,7 +189,7 @@ public class Experience : SingletonMonoBehaviour<Experience>
         timer = 0;
         clearTaskCount = 0;
         isTimerMoving = false;
-        timeList = new List<float>();
+        timeAndDistanceList = new List<TimeAndDistance>();
 
         Instantiate(resetCube, resetCubePosition, Quaternion.identity);
     }
@@ -175,16 +201,16 @@ public class Experience : SingletonMonoBehaviour<Experience>
         {
             instantiatePosition = new Vector3(
                 Random.Range(0.2f, 0.8f) + this.gameObject.transform.position.x,
-                Random.Range(0.3f, 1.5f) + this.gameObject.transform.position.y,
-                Random.Range(0f, 0.7f) + this.gameObject.transform.position.z
+                Random.Range(0.5f, 1.2f) + this.gameObject.transform.position.y,
+                Random.Range(0f, 0.2f) + this.gameObject.transform.position.z
             );
         }
         else
         {
             instantiatePosition = new Vector3(
                 Random.Range(0.2f, 0.8f) + this.gameObject.transform.position.x,
-                Random.Range(0.3f, 1.5f) + this.gameObject.transform.position.y,
-                Random.Range(-0.7f, 0f) + this.gameObject.transform.position.z
+                Random.Range(0.5f, 1.2f) + this.gameObject.transform.position.y,
+                Random.Range(-0.2f, 0f) + this.gameObject.transform.position.z
             );
         }
 
@@ -192,7 +218,7 @@ public class Experience : SingletonMonoBehaviour<Experience>
         isTimerMoving = true;
     }
 
-    public void ClearTask()
+    public void ClearTask(Vector3 taskCubePosition)
     {
         if (nowTaskStatus == TaskStatus.LeftPreTasking)
         {
@@ -215,17 +241,26 @@ public class Experience : SingletonMonoBehaviour<Experience>
             clearTaskCount++;
             if (clearTaskCount < AmountTaskCount)
             {
-                timeList.Add(timer);
+                if (nowTaskStatus == TaskStatus.RightRealTasking)
+                {
+                    timeAndDistanceList.Add(new TimeAndDistance(timer,
+                        Vector3.Distance(taskCubePosition, handR_end.transform.position)));
+                }
+                else if (nowTaskStatus == TaskStatus.LeftRealTasking)
+                {
+                    timeAndDistanceList.Add(new TimeAndDistance(timer,
+                        Vector3.Distance(taskCubePosition, handL_end.transform.position)));
+                }
                 timer = 0;
                 isTimerMoving = false;
                 Instantiate(resetCube, resetCubePosition, Quaternion.identity);
             }
             else
             {
-                string path = MultiPathCombine.Combine(Application.dataPath, "ExperienceData");
+                string path = MultiPathCombine.Combine(Application.dataPath, "ExperimentData");
                 string dateText = DateTime.Now.Year.ToString() +"_"+ DateTime.Now.Month.ToString() +"_" + DateTime.Now.Day.ToString() +"_"+
                     DateTime.Now.Hour.ToString() + "_" + DateTime.Now.Minute.ToString() + "_" + DateTime.Now.Second.ToString();
-                SaveCsvFile.WriteExperienceCsvData(path, nowTaskStatus.ToString() + "_" + dateText, timeList);
+                SaveCsvFile.WritePreExperimentCsvData(path, nowTaskStatus.ToString() + "_" + dateText, timeAndDistanceList);
                 timer = 0f;
                 isTimerMoving = false;
                 clearTaskCount = 0;
@@ -237,8 +272,8 @@ public class Experience : SingletonMonoBehaviour<Experience>
                 }
                 else if (nowTaskStatus == TaskStatus.LeftRealTasking)
                 {
-                    nowTaskStatus = TaskStatus.AfterExperience;
-                    explanationText.text = afterExperienceTextList[readExplanationCount];
+                    nowTaskStatus = TaskStatus.AfterExperiment;
+                    explanationText.text = afterExperimentTextList[readExplanationCount];
                 }
             }
         }
@@ -246,7 +281,7 @@ public class Experience : SingletonMonoBehaviour<Experience>
 
     public enum TaskStatus
     {
-        BeforeExperience,
+        BeforeExperiment,
         RightPreDescription,
         RightPreTasking,
         RightRealDescription,
@@ -255,6 +290,6 @@ public class Experience : SingletonMonoBehaviour<Experience>
         LeftPreTasking,
         LeftRealDescription,
         LeftRealTasking,
-        AfterExperience,
+        AfterExperiment,
     }
 }

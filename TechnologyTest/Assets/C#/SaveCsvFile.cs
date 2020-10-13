@@ -26,7 +26,7 @@ public static class SaveCsvFile
         }
     }
 
-    public static void WriteExperienceCsvData(string path, string fileName, List<float> timer)
+    public static void WritePreExperimentCsvData(string path, string fileName, List<Experiment.TimeAndDistance> timeAndDistanceList)
     {
         string filePath = MultiPathCombine.Combine(path, fileName + ".csv");
 
@@ -37,12 +37,15 @@ public static class SaveCsvFile
         using (StreamWriter sw = fileInfo.CreateText())
         {
             string saveText = "";
-            foreach (var onetime in timer)
+
+            foreach (var timeAndDistance in timeAndDistanceList)
             {
-                saveText += onetime.ToString() + ',';
+                saveText += timeAndDistance.GetTime.ToString() + ',' + timeAndDistance.GetDistance.ToString();
+                
+                saveText += '\n';
             }
 
-            saveText = saveText.TrimEnd(',');
+            //saveText = saveText.TrimEnd(',');
             sw.Write(saveText);
         }
     }

@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 1068118372}
   - component: {fileID: 1068118371}
   m_Layer: 0
-  m_Name: Experience
+  m_Name: Experiment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -367,6 +367,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 610ffbb644558564bb6cc47e206c5f0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  handL_end: {fileID: 1793945655}
+  handR_end: {fileID: 1856165321}
   taskCube: {fileID: 831014304560224252, guid: 275c38000d9f25444b510f4512afd333, type: 3}
   resetCube: {fileID: 5842716520941463570, guid: fa101e18c8061fb4e81ddd0230db19c1,
     type: 3}
