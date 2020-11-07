@@ -60,15 +60,19 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
     private Vector3 resetCubePosition;
 
     private float timer;
+    private float moveDistance;
+    private Vector3 preHandPosition;
     private bool isTimerMoving = false;
-    private List<TimeAndDistance> timeAndDistanceList;
+    private List<ExperimentData> experimentDataList;
 
-    public class TimeAndDistance
+    public class ExperimentData
     {
-        public TimeAndDistance(float time, float distance)
+        public ExperimentData(float time, float handToCubeDistance, float moveDistance, float resetCubeToTaskCubeDistance)
         {
             this.time = time;
-            this.distance = distance;
+            this.handToCubeDistance = handToCubeDistance;
+            this.moveDistance = moveDistance;
+            this.resetCubeToTaskCubeDistance = resetCubeToTaskCubeDistance;
         }
         
         private float time;
@@ -79,11 +83,25 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
                 return time;
             }
         }
-        private float distance;
+        private float handToCubeDistance;
 
-        public float GetDistance
+        public float GetHandToCubeDistance
         {
-            get { return distance; }
+            get { return handToCubeDistance; }
+        }
+
+        private float moveDistance;
+
+        public float GetMoveDistance
+        {
+            get { return moveDistance; }
+        }
+
+        private float resetCubeToTaskCubeDistance;
+
+        public float GetResetCubeToTaskCubeDistance
+        {
+            get { return resetCubeToTaskCubeDistance; }
         }
     }
 
@@ -108,9 +126,18 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
 
     private void Update()
     {
-        if ((nowTaskStatus == TaskStatus.LeftRealTasking || nowTaskStatus == TaskStatus.RightRealTasking) && isTimerMoving)
+        if (nowTaskStatus == TaskStatus.LeftRealTasking && isTimerMoving)
         {
             timer += Time.deltaTime;
+            moveDistance += Vector3.Distance(preHandPosition, handL_end.transform.position);
+            preHandPosition = handL_end.transform.position;
+            return;
+        }
+        else if(nowTaskStatus == TaskStatus.RightRealTasking && isTimerMoving)
+        {
+            timer += Time.deltaTime;
+            moveDistance += Vector3.Distance(preHandPosition, handR_end.transform.position);
+            preHandPosition = handR_end.transform.position;
             return;
         }
         
@@ -189,7 +216,8 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
         timer = 0;
         clearTaskCount = 0;
         isTimerMoving = false;
-        timeAndDistanceList = new List<TimeAndDistance>();
+        moveDistance = 0;
+        experimentDataList = new List<ExperimentData>();
 
         Instantiate(resetCube, resetCubePosition, Quaternion.identity);
     }
@@ -199,6 +227,7 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
         Vector3 instantiatePosition;
         if (nowTaskStatus == TaskStatus.LeftPreTasking || nowTaskStatus == TaskStatus.LeftRealTasking)
         {
+            preHandPosition = handL_end.transform.position;
             instantiatePosition = new Vector3(
                 Random.Range(0.2f, 0.8f) + this.gameObject.transform.position.x,
                 Random.Range(0.5f, 1.2f) + this.gameObject.transform.position.y,
@@ -207,6 +236,7 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
         }
         else
         {
+            preHandPosition = handR_end.transform.position;
             instantiatePosition = new Vector3(
                 Random.Range(0.2f, 0.8f) + this.gameObject.transform.position.x,
                 Random.Range(0.5f, 1.2f) + this.gameObject.transform.position.y,
@@ -243,26 +273,39 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
             {
                 if (nowTaskStatus == TaskStatus.RightRealTasking)
                 {
-                    timeAndDistanceList.Add(new TimeAndDistance(timer,
-                        Vector3.Distance(taskCubePosition, handR_end.transform.position)));
+                    experimentDataList.Add(new ExperimentData(timer,
+                        Vector3.Distance(taskCubePosition, handR_end.transform.position), moveDistance, Vector3.Distance(resetCubePosition, taskCubePosition)));
                 }
                 else if (nowTaskStatus == TaskStatus.LeftRealTasking)
                 {
-                    timeAndDistanceList.Add(new TimeAndDistance(timer,
-                        Vector3.Distance(taskCubePosition, handL_end.transform.position)));
+                    experimentDataList.Add(new ExperimentData(timer,
+                        Vector3.Distance(taskCubePosition, handL_end.transform.position), moveDistance, Vector3.Distance(resetCubePosition, taskCubePosition)));
                 }
                 timer = 0;
+                moveDistance = 0;
                 isTimerMoving = false;
                 Instantiate(resetCube, resetCubePosition, Quaternion.identity);
             }
             else
             {
+                if (nowTaskStatus == TaskStatus.RightRealTasking)
+                {
+                    experimentDataList.Add(new ExperimentData(timer,
+                        Vector3.Distance(taskCubePosition, handR_end.transform.position), moveDistance, Vector3.Distance(resetCubePosition, taskCubePosition)));
+                }
+                else if (nowTaskStatus == TaskStatus.LeftRealTasking)
+                {
+                    experimentDataList.Add(new ExperimentData(timer,
+                        Vector3.Distance(taskCubePosition, handL_end.transform.position), moveDistance, Vector3.Distance(resetCubePosition, taskCubePosition)));
+                }
+                timer = 0;
+                moveDistance = 0;
+                isTimerMoving = false;
+
                 string path = MultiPathCombine.Combine(Application.dataPath, "ExperimentData");
                 string dateText = DateTime.Now.Year.ToString() +"_"+ DateTime.Now.Month.ToString() +"_" + DateTime.Now.Day.ToString() +"_"+
                     DateTime.Now.Hour.ToString() + "_" + DateTime.Now.Minute.ToString() + "_" + DateTime.Now.Second.ToString();
-                SaveCsvFile.WritePreExperimentCsvData(path, nowTaskStatus.ToString() + "_" + dateText, timeAndDistanceList);
-                timer = 0f;
-                isTimerMoving = false;
+                SaveCsvFile.WritePreExperimentCsvData(path, nowTaskStatus.ToString() + "_" + dateText, experimentDataList);
                 clearTaskCount = 0;
                 readExplanationCount = 0;
                 if (nowTaskStatus == TaskStatus.RightRealTasking)
