@@ -17,37 +17,39 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
     {
         "このタスクでは、黒いキューブと赤いキューブが出現します" + aButtonClick,
         "本実験では、右手と左手に分けてタスクを行います" + aButtonClick,
+        "初めに右手での練習タスクを施行し、その後右手での本タスクを実行します" + aButtonClick,
+        "次に左手での練習タスクを施行し、その後左手での本タスク施行します" + aButtonClick,
         "本実験では、黒いキューブを触れてから赤いキューブを触れるまでの時間を計測します" + aButtonClick,
-        "まず、黒いキューブに右手を合わせ、右手のトリガーを引いてください" + aButtonClick,
-        "次に、赤いキューブが出現するので、赤いキューブに右手を合わせ、右手のトリガーを引いてください" + aButtonClick,
-        "右手が赤いキューブ内にある際には、赤いキューブの色が半透明になります" + aButtonClick,
+        "まず、黒いキューブ内に右手を置き、右手のトリガーを引いてください" + aButtonClick,
+        "次に、赤いキューブが出現するので、赤いキューブ内に右手を置き、右手のトリガーを引いてください" + aButtonClick,
+        "キューブ内に右手を置く際には、なるべく手の位置がキューブの中央になる場所でトリガーを引いてください" + aButtonClick,
         "それでは、1度右手での練習タスクを試行します" + aButtonClick,
     };
     
     private List<String> beforeRightRealTaskTextList = new List<string>()
     {
-        "本タスクでは、この練習タスクを10回連続で施行されます。" + aButtonClick,
-        "それでは、右手での本タスクを試行します。" + aButtonClick,
+        "本タスクでは、この練習タスクを20回連続で施行します" + aButtonClick,
+        "それでは、右手での本タスクを試行します" + aButtonClick,
     };
     
     private List<String> beforeLeftPreTaskTextList = new List<string>()
     {
-        "続いて、左手で同様のタスクを行います。" + xButtonClick,
-        "まず、黒いキューブに左手を合わせ、左手のトリガーを引いてください" + xButtonClick,
-        "次に、赤いキューブが出現するので、赤いキューブに右手を合わせ、左手のトリガーを引いてください。" + xButtonClick,
-        "左手が赤いキューブ内にある際には、赤いキューブの色が半透明になります。" + xButtonClick,
-        "それでは、1度左手での練習タスクを試行します。" + xButtonClick,
+        "続いて、左手で同様のタスクを行います" + xButtonClick,
+        "まず、黒いキューブ内に左手を置き、左手のトリガーを引いてください" + xButtonClick,
+        "次に、赤いキューブが出現するので、赤いキューブ内に左手を置き、左手のトリガーを引いてください" + xButtonClick,
+        "キューブ内に左手を置く際には、なるべく手の位置がキューブの中央になる場所でトリガーを引いてください" + xButtonClick,
+        "それでは、1度左手での練習タスクを試行します" + xButtonClick,
     };
     
     private List<String> beforeLeftRealTaskTextList = new List<string>()
     {
-        "本タスクでは、この練習タスクを10回連続で施行されます。" + xButtonClick,
-        "それでは、左手での本タスクを試行します。" + xButtonClick,
+        "本タスクでは、この練習タスクを20回連続で施行します" + xButtonClick,
+        "それでは、左手での本タスクを試行します" + xButtonClick,
     };
     
     private List<String> afterExperimentTextList = new List<string>()
     {
-        "実験は以上になります。ありがとうございました。" + xButtonClick,
+        "実験は以上になります、ありがとうございました" + xButtonClick,
     };
 
     private TaskStatus nowTaskStatus;
@@ -105,7 +107,7 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
         }
     }
 
-    private const int AmountTaskCount = 10;
+    private const int AmountTaskCount = 20;
     private int clearTaskCount;
     private int readExplanationCount;
     public GameObject taskCube;

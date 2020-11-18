@@ -1,14 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using OVR;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InstractorMove : MonoBehaviour
 {
     private int progress;
+
+    public const int musicTime = 200;
+
+    private float musicElapsedTime = 0f;
+
+    [SerializeField] private AudioSource audioSource;
     
     private List<List<float>> headTransform;
     private List<List<float>> leftHandTransform;
     private List<List<float>> rightHandTransform;
+
+    private bool isExercise = false;
     
     [SerializeField] private GameObject head; /// <summary>
     /// CenterEyeAnchor
@@ -25,10 +35,22 @@ public class InstractorMove : MonoBehaviour
         leftHandTransform = LoadCsvFile.Load(MultiPathCombine.Combine(Application.dataPath, "C#", "LeftHand.csv"));
         rightHandTransform = LoadCsvFile.Load(MultiPathCombine.Combine(Application.dataPath, "C#", "RightHand.csv"));
         progress = 0;
+        this.gameObject.SetActive(false);
     }
     
     private void FixedUpdate()
     {
+        if (!isExercise)
+        {
+            return;
+        }
+
+        musicElapsedTime += Time.deltaTime;
+        if (musicElapsedTime > musicTime)
+        {
+            SceneManager.LoadScene("LongHandExperiment");
+        }
+        
         if (progress >= headTransform.Count - 1)
         {
             return;
@@ -42,5 +64,12 @@ public class InstractorMove : MonoBehaviour
         rightHand.transform.localPosition = new Vector3((rightHandTransform[progress][0]), rightHandTransform[progress][1], rightHandTransform[progress][2]);
         rightHand.transform.localEulerAngles = new Vector3(rightHandTransform[progress][3], rightHandTransform[progress][4] + yRotation, rightHandTransform[progress][5]);
         progress++;
+    }
+
+    public void ExerciseStart()
+    {
+        this.gameObject.SetActive(true);
+        audioSource.Play();
+        isExercise = true;
     }
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\shimo\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\shimo\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_TechnologyTest.-313811016.00" t="ExcludeRecursive" />
-    <e p="D:\Unitys\Reserch\Moyashi_VR_Exercise\TechnologyTest" t="IncludeRecursive">
+    <e p="C:\Users\keitalab\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\keitalab\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_TechnologyTest.-1519935554.00" t="ExcludeRecursive" />
+    <e p="C:\Users\keitalab\Desktop\MoyashiInteraction\Moyashi_VR_Exercise\TechnologyTest" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -15,7 +15,6 @@
           <e p="Experiment.cs" t="Include" />
           <e p="InstractorMove.cs" t="Include" />
           <e p="LoadCsvFile.cs" t="Include" />
-          <e p="LongHandMusicEndAndSceneChange.cs" t="Include" />
           <e p="lowerHeadPosition.cs" t="Include" />
           <e p="MultiPathCombine.cs" t="Include" />
           <e p="ResetCube.cs" t="Include" />
@@ -24,6 +23,7 @@
           <e p="SavePlayerTransform.cs" t="Include" />
           <e p="SingletonMonoBehaviour.cs" t="Include" />
           <e p="TaskCube.cs" t="Include" />
+          <e p="TaskSwitch.cs" t="Include" />
           <e p="VibrationController.cs" t="Include" />
           <e p="VRmirrorSettings.cs" t="Include" />
         </e>
