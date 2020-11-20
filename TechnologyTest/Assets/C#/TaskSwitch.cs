@@ -25,8 +25,8 @@ public class TaskSwitch : MonoBehaviour
    private List<String> AExperimentTextList = new List<string>()
    {
       "実験Aでは、身体を一定時間自由に動かしてもらった後、タスクを行います" + aButtonClick,
-      "全身を" + InstractorMove.musicTime.ToString() + "秒間の間自由に動かし、仮想身体の動きを把握してください" + aButtonClick,
-      InstractorMove.musicTime.ToString() + "秒経過後に、自動でタスクを行う画面に遷移します" + aButtonClick,
+      "全身を" + MusicStartAndSceneChange.musicTime.ToString() + "秒間の間自由に動かし、仮想身体の動きを把握してください" + aButtonClick,
+      MusicStartAndSceneChange.musicTime.ToString() + "秒経過後に、自動でタスクを行う画面に遷移します" + aButtonClick,
       "それでは、右手のAボタンを押した後、身体を自由に動かしてください" + aButtonClick
    };
 
@@ -98,7 +98,7 @@ public class TaskSwitch : MonoBehaviour
          else if (readExplanationCount == AExperimentTextList.Count - 1)
          {
             explanationText.text = "";
-            instractor.GetComponent<InstractorMove>().ExerciseStart(); 
+            instractor.GetComponent<InstractorMove>().ExerciseStart(false); 
          }
       }
       else if (explanationStatus == ExplanationStatus.B)
@@ -114,7 +114,7 @@ public class TaskSwitch : MonoBehaviour
          else if (readExplanationCount == AExperimentTextList.Count - 1)
          {
             explanationText.text = "";
-            instractor.GetComponent<InstractorMove>().ExerciseStart();
+            instractor.GetComponent<InstractorMove>().ExerciseStart(true);
          }
       }
    }

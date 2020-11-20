@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using OVR;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class InstractorMove : MonoBehaviour
 {
     private int progress;
-
-    public const int musicTime = 200;
-
-    private float musicElapsedTime = 0f;
-
-    [SerializeField] private AudioSource audioSource;
     
     private List<List<float>> headTransform;
     private List<List<float>> leftHandTransform;
@@ -45,12 +38,6 @@ public class InstractorMove : MonoBehaviour
             return;
         }
 
-        musicElapsedTime += Time.deltaTime;
-        if (musicElapsedTime > musicTime)
-        {
-            SceneManager.LoadScene("LongHandExperiment");
-        }
-        
         if (progress >= headTransform.Count - 1)
         {
             return;
@@ -66,10 +53,19 @@ public class InstractorMove : MonoBehaviour
         progress++;
     }
 
-    public void ExerciseStart()
+    public void ExerciseStart(bool doExercise)
     {
-        this.gameObject.SetActive(true);
-        audioSource.Play();
+        MusicStartAndSceneChange.Instance.MusicMeasureStart(doExercise);
+
+        if (doExercise)
+        {
+            this.gameObject.SetActive(true);
+        }
+        else
+        {
+            this.gameObject.SetActive(false);
+        }
+
         isExercise = true;
     }
 }

@@ -15,6 +15,10 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
 
     private List<String> beforeRightPreTaskTextList = new List<string>()
     {
+        "まず、自身の身体位置を中央にリセットします" + aButtonClick,
+        "右手下のボタンを押した後、正面をリセットボタンを選択してください" + aButtonClick,
+        "身体位置が適切な場所に設定できているか、実験主導者に確認をとってください" + aButtonClick,
+        "では、タスクの内容を説明します" + aButtonClick,
         "このタスクでは、黒いキューブと赤いキューブが出現します" + aButtonClick,
         "本実験では、右手と左手に分けてタスクを行います" + aButtonClick,
         "初めに右手での練習タスクを施行し、その後右手での本タスクを実行します" + aButtonClick,
@@ -34,6 +38,8 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
     
     private List<String> beforeLeftPreTaskTextList = new List<string>()
     {
+        "では、もう一度自身の身体位置を中央にリセットしてください" + aButtonClick,
+        "身体位置が適切な場所に設定できているか、実験主導者に確認をとってください" + aButtonClick,
         "続いて、左手で同様のタスクを行います" + xButtonClick,
         "まず、黒いキューブ内に左手を置き、左手のトリガーを引いてください" + xButtonClick,
         "次に、赤いキューブが出現するので、赤いキューブ内に左手を置き、左手のトリガーを引いてください" + xButtonClick,
@@ -49,7 +55,7 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
     
     private List<String> afterExperimentTextList = new List<string>()
     {
-        "実験は以上になります、ありがとうございました" + xButtonClick,
+        "実験は以上になります、ありがとうございました"
     };
 
     private TaskStatus nowTaskStatus;
