@@ -34,6 +34,7 @@ public class TaskSwitch : MonoBehaviour
    {
       "実験Bでは、ラジオ体操の音楽に合わせて体操を行った後、タスクを行います" + aButtonClick,
       "体操の動作は、正面に現れるインストラクターの動きを真似し、行ってください" + aButtonClick,
+      "体操中は、なるべく自分の身体の動きに目を向けてください" + aButtonClick,
       "体操方法の補助音声として、各体操ごとにナレーションが流れます" + aButtonClick,
       "体操終了後、自動でタスクを行う画面に遷移します" + aButtonClick,
       "それでは、右手のAボタンを押した後、体操を始めます" + aButtonClick
@@ -108,7 +109,7 @@ public class TaskSwitch : MonoBehaviour
             if (OVRInput.GetDown(OVRInput.Button.One))
             {
                readExplanationCount++;
-               explanationText.text = AExperimentTextList[readExplanationCount];
+               explanationText.text = BExperimentTextList[readExplanationCount];
             }
          }
          else if (readExplanationCount == AExperimentTextList.Count - 1)
