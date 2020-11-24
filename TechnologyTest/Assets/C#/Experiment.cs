@@ -33,13 +33,14 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
     private List<String> beforeRightRealTaskTextList = new List<string>()
     {
         "本タスクでは、この練習タスクを20回連続で施行します" + aButtonClick,
+        "赤いキューブに触れた後、少し時間をあけて黒いキューブが再出現します" + aButtonClick,
         "それでは、右手での本タスクを試行します" + aButtonClick,
     };
     
     private List<String> beforeLeftPreTaskTextList = new List<string>()
     {
-        "では、もう一度自身の身体位置を中央にリセットしてください" + aButtonClick,
-        "身体位置が適切な場所に設定できているか、実験主導者に確認をとってください" + aButtonClick,
+        "では、もう一度自身の身体位置を中央にリセットしてください" + xButtonClick,
+        "身体位置が適切な場所に設定できているか、実験主導者に確認をとってください" + xButtonClick,
         "続いて、左手で同様のタスクを行います" + xButtonClick,
         "まず、黒いキューブ内に左手を置き、左手のトリガーを引いてください" + xButtonClick,
         "次に、赤いキューブが出現するので、赤いキューブ内に左手を置き、左手のトリガーを引いてください" + xButtonClick,
@@ -50,6 +51,7 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
     private List<String> beforeLeftRealTaskTextList = new List<string>()
     {
         "本タスクでは、この練習タスクを20回連続で施行します" + xButtonClick,
+        "赤いキューブに触れた後、少し時間をあけて黒いキューブが再出現します" + xButtonClick,
         "それでは、左手での本タスクを試行します" + xButtonClick,
     };
     
@@ -292,7 +294,7 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
                 timer = 0;
                 moveDistance = 0;
                 isTimerMoving = false;
-                Instantiate(resetCube, resetCubePosition, Quaternion.identity);
+                StartCoroutine(WaitInstantiateResetCube());
             }
             else
             {
@@ -328,6 +330,12 @@ public class Experiment : SingletonMonoBehaviour<Experiment>
                 }
             }
         }
+    }
+
+    private IEnumerator WaitInstantiateResetCube()
+    {
+        yield return new WaitForSeconds(0.6f);
+        Instantiate(resetCube, resetCubePosition, Quaternion.identity);
     }
 
     public enum TaskStatus
